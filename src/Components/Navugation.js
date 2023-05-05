@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const Navugation = () => {
   return (
     <div className='nav'>
-     <Link to="/"><nav><FaHome/>Home</nav></Link> 
-     <Link to="/about">  <nav><FaClipboardList/>About</nav></Link> 
-        <Link to="/contact"><nav><FaPhoneAlt/>Contact</nav></Link>
+    <Link to="/" style={{textDecoration:"none"}}><nav ><FaHome/>Home</nav></Link> 
+    <Link to="/about" style={{textDecoration:"none"}}>  <nav><FaClipboardList/>About</nav></Link> 
+    <Link to="/contact" style={{textDecoration:"none"}}><nav><FaPhoneAlt/>Contact</nav></Link>
     </div>
   )
 }
